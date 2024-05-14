@@ -5,6 +5,13 @@ Test and interact with Uniswap using Foundry and mainnet fork.
 ### Installation
 
 ```bash
+git clone https://github.com/ManaanAnsari/uniswapv3-foundry-interactions.git
+cd uniswapv3-foundry-interactions
+```
+
+if the libs are not installed properly run
+
+```bash
 forge install https://github.com/OpenZeppelin/openzeppelin-contracts --no-commit
 forge install https://github.com/Uniswap/v3-periphery --no-commit
 forge install https://github.com/Uniswap/v3-core --no-commit
